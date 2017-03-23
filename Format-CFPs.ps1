@@ -14,10 +14,13 @@ $PropArray = $Proposals | Foreach-Object {
     $GitHub = $_.'GitHub Handle'
 
     $Twitter = $_.'Twitter Handle'
-    if($Twitter) {$Name = "[$Name]($Twitter)"}
+    if($Twitter) {
+        $Twitter = $Twitter.TrimStart('@')
+        $Name = "[$Name](https://twitter.com/$Twitter)"
+    }
 
     $Append = @()
-    if($GitHub) {$Append += "[GitHub]($GitHub)"}
+    if($GitHub) {$Append += "[GitHub](https://github.com/$GitHub)"}
     if($Blog) {$Append += "[Blog]($Blog)"}
     if($GitHub -or $Blog) {$Name = "$Name ($($Append -join ', '))"}
 

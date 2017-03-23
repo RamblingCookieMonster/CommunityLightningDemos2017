@@ -1,5 +1,11 @@
-# Silly script to import CLD proposals and format in markdown
-$Proposals = import-csv '/Users/wframe/Downloads/Community Lightning Demo Proposals.csv'
+# Silly script to import CLD proposals and format in markdown. Run from repo dir.
+param($Path = '/Users/wframe/Downloads/Community Lightning Demo Proposals.csv')
+
+# Santize CSV
+$Proposals = Import-CSV -Path $Path | Select -Property * -ExcludeProperty Username
+$Proposals | Export-CSV -Path $Path -NoTypeInformation -Force
+Copy-Item $Path ./CFPs.csv -ErrorAction SilentlyContinue
+
 $PropArray = $Proposals | Foreach-Object {
     $Name = $_.'Your Name'
     $Topic = $_.'Topic Title'
@@ -10,7 +16,7 @@ $PropArray = $Proposals | Foreach-Object {
     $Twitter = $_.'Twitter Handle'
     if($Twitter) {$Name = "[$Name]($Twitter)"}
 
-    $Append = ""
+    $Append = @()
     if($GitHub) {$Append += "[GitHub]($GitHub)"}
     if($Blog) {$Append += "[Blog]($Blog)"}
     if($GitHub -or $Blog) {$Name = "$Name ($($Append -join ', '))"}

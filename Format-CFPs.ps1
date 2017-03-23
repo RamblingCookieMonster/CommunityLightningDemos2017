@@ -13,7 +13,7 @@ $PropArray = $Proposals | Foreach-Object {
     $Append = ""
     if($GitHub) {$Append += "[GitHub]($GitHub)"}
     if($Blog) {$Append += "[Blog]($Blog)"}
-    if($GitHub -or $Blog) {$Name = "$Name ($($Append -join ', ')"}
+    if($GitHub -or $Blog) {$Name = "$Name ($($Append -join ', '))"}
 
 $Text = @"
 ### $Topic

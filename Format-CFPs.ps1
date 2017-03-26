@@ -39,3 +39,5 @@ $Abstract
 } | Sort-Object Name, Topic
 
 @( $PropArray | Select -ExpandProperty Text ) -join "`n`n" | pbcopy
+
+Remove-Item $Path -Force

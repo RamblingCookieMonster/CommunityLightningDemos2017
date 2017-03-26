@@ -33,6 +33,12 @@ Proposed by [Joel Bennett](https://twitter.com/Jaykul) ([GitHub](https://github.
 
 I'll be showing a module that not only makes it easy for users to stitch together information into a prompt, but actually makes it easy for modules to extend your prompt without breaking it...
 
+### Leveraging properties on AD objects as persistent storage for scripted tasks
+
+Proposed by [John Mello](https://twitter.com/Iczer1) ([GitHub](https://github.com/https://github.com/Iczer1), [Blog](http://mellositmusings.com/)):
+
+Have you ever scripted a task in AD that relied on a text file or CSV to take an action against a user or group? Why not store that info directly on the object using an AD property? In this lighting talk I will go over how to store an array of previous security group members directly to a property on the group security itself.
+
 ### PSRegistry
 
 Proposed by [Josh Rickard](https://twitter.com/MS_dministrator) ([GitHub](https://github.com/MSAdministrator ), [Blog](MSAdministrator.com)):
@@ -80,3 +86,9 @@ I'll discuss the ScriptAsService project and using it to deploy scripts as signe
 Proposed by [Rob Reynolds](https://twitter.com/ferventcoder) ([GitHub](https://github.com/ferventcoder), [Blog](https://codebetter.com/robreynolds)):
 
 I'll be showing off how to create fully unattended software deployments in less than 10 seconds!
+
+### Dynamic Code
+
+Proposed by [Wesley Kirkland](https://twitter.com/unleashthecloud) ([GitHub](https://github.com/wesleykirkland)):
+
+I'll be talking about using code to write other code with specific logic conditions to make your programs truely dynamic

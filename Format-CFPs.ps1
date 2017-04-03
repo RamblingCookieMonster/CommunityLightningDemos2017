@@ -36,7 +36,7 @@ $Abstract
         Topic = $Topic
         Text = $Text
     }
-} | Sort-Object Name, Topic
+} | Sort-Object @{e={$_.Name.TrimStart('[')}}, Topic
 
 @( $PropArray | Select -ExpandProperty Text ) -join "`n`n" | pbcopy
 

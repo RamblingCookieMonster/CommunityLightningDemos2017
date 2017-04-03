@@ -2,12 +2,14 @@
 
 This repo includes proposals and demo materials for the Community Lighting Demos presented at the PowerShell + DevOps Global Summit 2017
 
-## Proposals
-
 * [Goofy blog on these demos](http://ramblingcookiemonster.github.io/Summit-Lightning-Demos/)
 * [Proposal form](https://goo.gl/forms/8sCiEeehOiyT2ynh2)
 * [Raw input](CFPs.csv)
 * [CSV processing](Format-CFPs.ps1)
+
+## Proposals
+
+These are dynamically generated from form data, sorted by name and topic.
 
 ### Invoke-ChatOps: Using PoshBot in Slack
 
@@ -15,17 +17,29 @@ Proposed by [Brandon Olin](https://twitter.com/devblackops) ([GitHub](https://gi
 
 Demonstration of PoshBot, a new PowerShell-based bot framework that exposes module functions as bot commands in Slack.
 
+### Being an Upstanding Gitizen
+
+Proposed by [Brian Bunke](https://twitter.com/brianbunke) ([GitHub](https://github.com/brianbunke), [Blog](http://www.brianbunke.com)):
+
+Lessons learned while contributing to--and managing--open source projects.
+
+### Lability: Building environments from code
+
+Proposed by Chris Gardner ([GitHub](https://github.com/ChrisLGardner)):
+
+Using the Lability module to build environments for applications in Hyper-V and extending that to also work in the cloud.
+
 ### powershell@puppet.com
 
 Proposed by [Glenn Sarti](https://twitter.com/glennsarti) ([GitHub](https://github.com/glennsarti), [Blog](http://glennsarti.github.io)):
 
 A quick talk about how I use powershell day-to-day at Puppet, which is mainly a ruby shop.  Also pull-back-the-curtain on Puppet's powershell integration with runspaces, pipes and future cross-platform support
 
-### TENTATIVE: Graph all the PowerShell Things!
+### Graph all the PowerShell Things!
 
 Proposed by [Glenn Sarti](https://twitter.com/glennsarti) ([GitHub](https://github.com/glennsarti), [Blog](http://glennsarti.github.io/)):
 
-Neo4j is a world leading Java based graph database (NoSQL).  But did you know that it's available in Chocolatey, uses PowerShell for installation, Pester for unit testing and can use the .Net driver for using the new binary protocol? No didn't think you did...  In this quick demo we'll go through installing Neo4j (maybe in Windows Containers) and then quickly inserting some test data, all powered by PowerShell
+Neo4j is a world leading Java based graph database (NoSQL).  But did you know that it's available in Chocolatey, uses PowerShell for installation, Pester for unit testing and can use the .Net driver for using the new binary protocol? No didn't think you did...  In this quick demo we'll go through how is used in Neo4j from source code, installation and actually using it.
 
 ### PowerLine: Custom prompts made easy
 

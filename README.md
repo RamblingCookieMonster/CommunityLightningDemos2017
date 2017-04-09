@@ -29,6 +29,12 @@ Proposed by Chris Gardner ([GitHub](https://github.com/ChrisLGardner)):
 
 Using the Lability module to build environments for applications in Hyper-V and extending that to also work in the cloud.
 
+### WinPE with powershell
+
+Proposed by [David Jones](https://twitter.com/BladeFireLight) ([GitHub](https://github.com/BladeFireLight)):
+
+Creating a WinPE image that downloads a deployment script from GitHub
+
 ### powershell@puppet.com
 
 Proposed by [Glenn Sarti](https://twitter.com/glennsarti) ([GitHub](https://github.com/glennsarti), [Blog](http://glennsarti.github.io)):
@@ -57,7 +63,7 @@ Have you ever scripted a task in AD that relied on a text file or CSV to take an
 
 Proposed by [Josh Rickard](https://twitter.com/MS_dministrator) ([GitHub](https://github.com/MSAdministrator ), [Blog](MSAdministrator.com)):
 
-I will be talking a new PS Module that wraps the adaptiv32.dll into a PowerShell Module that can mount, dismount, create, delete, update (plus more) both the local and remote registry hives without using PS Drives or the old reg load/unload commands. This project is still a WIP.
+I will be talking a new PS Module that wraps the advapi32.dll into a PowerShell Module which can mount, dismount, create, delete, update (plus more) both the local and remote registry hives without using PS Drives or the old reg load/unload commands. This project is still a WIP.
 
 ### Design then Code
 

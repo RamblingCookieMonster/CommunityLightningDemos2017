@@ -29,6 +29,18 @@ Proposed by Chris Gardner ([GitHub](https://github.com/ChrisLGardner)):
 
 Using the Lability module to build environments for applications in Hyper-V and extending that to also work in the cloud.
 
+### How to elevate a script from LocalSystem to SomeDomain\SomeAdmin
+
+Proposed by [Daniel Krebs](https://twitter.com/Dan1el42) ([GitHub](https://github.com/Dan1el42)):
+
+I'll give a brief demo how I managed to locally elevate a PowerShell script from NT AUTHORITY\SYSTEM to SomeDomain\SomeAdmin to configure a cluster or create a RDS Farm.
+
+### PowerShell and PowerShell DSC with Chef
+
+Proposed by [Daniel Krebs](https://twitter.com/Dan1el42) ([GitHub](https://github.com/Dan1el42)):
+
+I'll give a brief demo/talk about how to leverage idempotancy with PowerShell and PowerShell DSC with Chef.
+
 ### WinPE with powershell
 
 Proposed by [David Jones](https://twitter.com/BladeFireLight) ([GitHub](https://github.com/BladeFireLight)):
@@ -83,6 +95,12 @@ Proposed by [Josh Rickard](https://twitter.com/MS_dministrator) ([GitHub](https:
 
 I will be talking about a PowerShell Module I've created called PPRT (PowerShell Phishing Response Toolkit).  PPRT is designed to identify phishing website owners using RDAP (New Whois) and automate takedown notifications of received phishing attempts.
 
+### Deploy AWS Infrastructure with CloudFormation and PowerShell
+
+Proposed by [Lawrence Hwang](https://twitter.com/CPoweredLion) ([GitHub](https://github.com/LawrenceHwang), [Blog](poshsea.blogspot.ca)):
+
+I will be talking about using PowerShell to test and push CloudFormation to create AWS infrastructure (EC2..etc)
+
 ### Documentation: Do the Needful
 
 Proposed by [Michael T Lombardi](https://twitter.com/barbariankb) ([GitHub](https://github.com/michaeltlombardi), [Blog](https://michaeltlombardi.gitlab.io)):
@@ -112,3 +130,4 @@ I'll be showing off how to create fully unattended software deployments in less 
 Proposed by [Wesley Kirkland](https://twitter.com/unleashthecloud) ([GitHub](https://github.com/wesleykirkland)):
 
 I'll be talking about using code to write other code with specific logic conditions to make your programs truely dynamic
+

@@ -11,6 +11,12 @@ This repo includes proposals and demo materials for the Community Lighting Demos
 
 These are dynamically generated from form data, sorted by name and topic.
 
+### Home Grown CMDB for Disposable App Environments
+
+Proposed by [Adam Murray](https://twitter.com/muzzar78):
+
+Home Grown CMDB for Disposable App Environments
+
 ### Invoke-ChatOps: Using PoshBot in Slack
 
 Proposed by [Brandon Olin](https://twitter.com/devblackops) ([GitHub](https://github.com/devblackops), [Blog](https://devblackops.io)):
@@ -28,6 +34,24 @@ Lessons learned while contributing to--and managing--open source projects.
 Proposed by Chris Gardner ([GitHub](https://github.com/ChrisLGardner)):
 
 Using the Lability module to build environments for applications in Hyper-V and extending that to also work in the cloud.
+
+### Patching with Maintenance Window and DSC
+
+Proposed by Chris Madole:
+
+Patching with Maintenance Window and DSC
+
+### Using Pester and PowerCLI to Validate and Remediate vSphere Environments
+
+Proposed by [Chris Wahl ](https://twitter.com/ChrisWahl ) ([GitHub](https://github.com/Chriswahl ), [Blog](Wahlnetwork.com )):
+
+All about project Vester on GitHub
+
+### AWS PowerShell: How to leverage a dynamic ~/.aws/credentials file
+
+Proposed by [Daniel Krebs](https://twitter.com/Dan1el42) ([GitHub](https://github.com/Dan1el42)):
+
+I'll give a brief demo/talk how I've figured out to use a dynamic ~/.aws/credentials file at work with the AWS PowerShell module.
 
 ### How to elevate a script from LocalSystem to SomeDomain\SomeAdmin
 
@@ -65,6 +89,12 @@ Proposed by [Joel Bennett](https://twitter.com/Jaykul) ([GitHub](https://github.
 
 I'll be showing a module that not only makes it easy for users to stitch together information into a prompt, but actually makes it easy for modules to extend your prompt without breaking it...
 
+### Scheduled Task Release Pipeline
+
+Proposed by [Joel Reed](https://twitter.com/AKAJoelReed) ([Blog](https://blog.start-transcript.com/)):
+
+Scheduled Task Release Pipeline
+
 ### Leveraging properties on AD objects as persistent storage for scripted tasks
 
 Proposed by [John Mello](https://twitter.com/Iczer1) ([GitHub](https://github.com/https://github.com/Iczer1), [Blog](http://mellositmusings.com/)):
@@ -97,9 +127,9 @@ I will be talking about a PowerShell Module I've created called PPRT (PowerShell
 
 ### Deploy AWS Infrastructure with CloudFormation and PowerShell
 
-Proposed by [Lawrence Hwang](https://twitter.com/CPoweredLion) ([GitHub](https://github.com/LawrenceHwang), [Blog](poshsea.blogspot.ca)):
+Proposed by [Lawrence Hwang](https://twitter.com/CPoweredLion) ([GitHub](https://github.com/LawrenceHwang), [Blog](https://poshsea.blogspot.ca)):
 
-I will be talking about using PowerShell to test and push CloudFormation to create AWS infrastructure (EC2..etc)
+I will be talking about my experience using PowerShell to test and push CloudFormation template for creating AWS infrastructure. An effort to stay away from continuous clicking in web console.
 
 ### Documentation: Do the Needful
 
@@ -119,15 +149,26 @@ Proposed by [Michael T Lombardi](https://twitter.com/barbariankb) ([GitHub](http
 
 I'll discuss the ScriptAsService project and using it to deploy scripts as signed binaries to servers for scheduling.
 
+### Managing NTFS on a Large Scale
+
+Proposed by Mike Kletz:
+
+Managing NTFS on a Large Scale
+
 ### Software Management Automation with Chocolatey
 
 Proposed by [Rob Reynolds](https://twitter.com/ferventcoder) ([GitHub](https://github.com/ferventcoder), [Blog](https://codebetter.com/robreynolds)):
 
 I'll be showing off how to create fully unattended software deployments in less than 10 seconds!
 
+### Structuring a PowerShell Module
+
+Proposed by [Trevor Sullivan](https://twitter.com/pcgeek86):
+
+Structuring a PowerShell Module: Intellisense, aliases, functions, Pester tests, etc.
+
 ### Dynamic Code
 
 Proposed by [Wesley Kirkland](https://twitter.com/unleashthecloud) ([GitHub](https://github.com/wesleykirkland)):
 
 I'll be talking about using code to write other code with specific logic conditions to make your programs truely dynamic
-

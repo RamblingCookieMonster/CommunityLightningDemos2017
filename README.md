@@ -125,6 +125,12 @@ Proposed by [Josh Rickard](https://twitter.com/MS_dministrator) ([GitHub](https:
 
 I will be talking about a PowerShell Module I've created called PPRT (PowerShell Phishing Response Toolkit).  PPRT is designed to identify phishing website owners using RDAP (New Whois) and automate takedown notifications of received phishing attempts.
 
+### Importance of Code Coverage
+
+Proposed by [Kelcey Vehanen](https://twitter.com/pixelrebirth) ([GitHub](https://github.com/pixelrebirth)):
+
+I will be talking about why 100% code coverage is critical.
+
 ### Deploy AWS Infrastructure with CloudFormation and PowerShell
 
 Proposed by [Lawrence Hwang](https://twitter.com/CPoweredLion) ([GitHub](https://github.com/LawrenceHwang), [Blog](https://poshsea.blogspot.ca)):

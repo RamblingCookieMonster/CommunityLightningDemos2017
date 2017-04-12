@@ -18,7 +18,6 @@ Order of operations
 | Trevor Sullivan    | Structuring a PowerShell Module |
 | Joel Reed          | Scheduled Task Release Pipeline |
 | John Mello         | Leveraging properties on AD objects as persistent storage for scripted tasks |
-| Mike Kletz         | Managing NTFS on a Large Scale |
 | Wesley Kirkland    | Dynamic Code |
 | Rob Pleau          | PowerShell Release Pipelines with TFS, vscode, and psake |
 | Steve Parankewich  | Tool Making With PowerShell (GUI) |

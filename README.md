@@ -161,6 +161,12 @@ Proposed by [Rob Reynolds](https://twitter.com/ferventcoder) ([GitHub](https://g
 
 I'll be showing off how to create fully unattended software deployments in less than 10 seconds!
 
+### Tool Making With PowerShell
+
+Proposed by [Steve Parankewich](https://twitter.com/powershellblog) ([Blog](www.powershellblogger.com)):
+
+A few GUI tools written that utilize PowerShell to make ad-hoc and provisioning easier.
+
 ### Structuring a PowerShell Module
 
 Proposed by [Trevor Sullivan](https://twitter.com/pcgeek86):

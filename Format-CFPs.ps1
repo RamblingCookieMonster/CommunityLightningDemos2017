@@ -33,6 +33,7 @@ $Abstract
 "@
     [pscustomobject]@{
         Name = $Name
+        NameOnly = $_.'Your Name'
         Topic = $Topic
         Text = $Text
     }

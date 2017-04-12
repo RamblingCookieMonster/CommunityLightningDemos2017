@@ -29,6 +29,12 @@ Proposed by [Brian Bunke](https://twitter.com/brianbunke) ([GitHub](https://gith
 
 Lessons learned while contributing to--and managing--open source projects.
 
+### How to scale a monolith using PowerShell
+
+Proposed by [Chris Brucker](https://twitter.com/bruckect) ([GitHub](https://github.com/@bruckect)):
+
+Use PowerShell to make a monolithic desktop application scale to thousands of workstations.
+
 ### Lability: Building environments from code
 
 Proposed by Chris Gardner ([GitHub](https://github.com/ChrisLGardner)):
@@ -154,12 +160,6 @@ Talk about using GitLab CI + PowerShell to Build/Deploy Projects
 Proposed by [Michael T Lombardi](https://twitter.com/barbariankb) ([GitHub](https://github.com/michaeltlombardi), [Blog](https://michaeltlombardi.gitlab.io)):
 
 I'll discuss the ScriptAsService project and using it to deploy scripts as signed binaries to servers for scheduling.
-
-### Managing NTFS on a Large Scale
-
-Proposed by Mike Kletz:
-
-Managing NTFS on a Large Scale
 
 ### PowerShell Release Pipelines with TFS, vscode, and psake
 

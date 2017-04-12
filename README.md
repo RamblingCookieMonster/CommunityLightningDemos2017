@@ -161,6 +161,12 @@ Proposed by Mike Kletz:
 
 Managing NTFS on a Large Scale
 
+### PowerShell Release Pipelines with TFS, vscode, and psake
+
+Proposed by Rob Pleau:
+
+PowerShell Release Pipelines with TFS, vscode, and psake
+
 ### Software Management Automation with Chocolatey
 
 Proposed by [Rob Reynolds](https://twitter.com/ferventcoder) ([GitHub](https://github.com/ferventcoder), [Blog](https://codebetter.com/robreynolds)):

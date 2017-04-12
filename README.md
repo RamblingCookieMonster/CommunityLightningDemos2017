@@ -6,6 +6,7 @@ This repo includes proposals and demo materials for the Community Lighting Demos
 * [Proposal form](https://goo.gl/forms/8sCiEeehOiyT2ynh2)
 * [Raw input](CFPs.csv)
 * [CSV processing](Format-CFPs.ps1)
+* [Order of demos](order.md)
 
 ## Proposals
 

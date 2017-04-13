@@ -70,7 +70,7 @@ Proposed by [Joel Bennett](https://twitter.com/Jaykul) ([GitHub](https://github.
 
 I'll be showing a module that not only makes it easy for users to stitch together information into a prompt, but actually makes it easy for modules to extend your prompt without breaking it...
 
-### Scheduled Task Release Pipeline
+### [Scheduled Task Release Pipeline](https://github.com/jlrd/ScheduledTaskReleasePipeline)
 
 Proposed by [Joel Reed](https://twitter.com/AKAJoelReed) ([Blog](https://blog.start-transcript.com/)):
 

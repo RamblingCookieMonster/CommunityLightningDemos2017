@@ -82,7 +82,7 @@ Proposed by [John Mello](https://twitter.com/Iczer1) ([GitHub](https://github.co
 
 Have you ever scripted a task in AD that relied on a text file or CSV to take an action against a user or group? Why not store that info directly on the object using an AD property? In this lighting talk I will go over how to store an array of previous security group members directly to a property on the group security itself.
 
-### PSRegistry
+### [PSRegistry](https://github.com/MSAdministrator/PSRegistry)
 
 Proposed by [Josh Rickard](https://twitter.com/MS_dministrator) ([GitHub](https://github.com/MSAdministrator ), [Blog](MSAdministrator.com)):
 
@@ -130,7 +130,7 @@ Proposed by [Trevor Sullivan](https://twitter.com/pcgeek86) ([GitHub](https://gi
 
 Structuring a PowerShell Module: Intellisense, aliases, functions, Pester tests, etc.
 
-### Dynamic Code
+### [Dynamic Code](https://github.com/wesleykirkland/Summit2017)
 
 Proposed by [Wesley Kirkland](https://twitter.com/unleashthecloud) ([GitHub](https://github.com/wesleykirkland)):
 

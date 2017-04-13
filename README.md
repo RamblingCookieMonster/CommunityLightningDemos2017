@@ -8,9 +8,7 @@ This repo includes proposals and demo materials for the Community Lighting Demos
 * [CSV processing](Format-CFPs.ps1)
 * [Order of demos](order.md)
 
-## Proposals
-
-These are dynamically generated from form data, sorted by name and topic.
+## Proposals and Content
 
 ### Home Grown CMDB for Disposable App Environments
 
@@ -44,7 +42,7 @@ Using the Lability module to build environments for applications in Hyper-V and 
 
 ### Patching with Maintenance Window and DSC
 
-Proposed by Chris Madole:
+Proposed by [Chris Madole](https://twitter.com/okinawabeachboy):
 
 Patching with Maintenance Window and DSC
 
@@ -53,24 +51,6 @@ Patching with Maintenance Window and DSC
 Proposed by [Chris Wahl ](https://twitter.com/ChrisWahl ) ([GitHub](https://github.com/Chriswahl ), [Blog](Wahlnetwork.com )):
 
 All about project Vester on GitHub
-
-### AWS PowerShell: How to leverage a dynamic ~/.aws/credentials file
-
-Proposed by [Daniel Krebs](https://twitter.com/Dan1el42) ([GitHub](https://github.com/Dan1el42)):
-
-I'll give a brief demo/talk how I've figured out to use a dynamic ~/.aws/credentials file at work with the AWS PowerShell module.
-
-### How to elevate a script from LocalSystem to SomeDomain\SomeAdmin
-
-Proposed by [Daniel Krebs](https://twitter.com/Dan1el42) ([GitHub](https://github.com/Dan1el42)):
-
-I'll give a brief demo how I managed to locally elevate a PowerShell script from NT AUTHORITY\SYSTEM to SomeDomain\SomeAdmin to configure a cluster or create a RDS Farm.
-
-### PowerShell and PowerShell DSC with Chef
-
-Proposed by [Daniel Krebs](https://twitter.com/Dan1el42) ([GitHub](https://github.com/Dan1el42)):
-
-I'll give a brief demo/talk about how to leverage idempotancy with PowerShell and PowerShell DSC with Chef.
 
 ### WinPE with powershell
 
@@ -83,12 +63,6 @@ Creating a WinPE image that downloads a deployment script from GitHub
 Proposed by [Glenn Sarti](https://twitter.com/glennsarti) ([GitHub](https://github.com/glennsarti), [Blog](http://glennsarti.github.io)):
 
 A quick talk about how I use powershell day-to-day at Puppet, which is mainly a ruby shop.  Also pull-back-the-curtain on Puppet's powershell integration with runspaces, pipes and future cross-platform support
-
-### Graph all the PowerShell Things!
-
-Proposed by [Glenn Sarti](https://twitter.com/glennsarti) ([GitHub](https://github.com/glennsarti), [Blog](http://glennsarti.github.io/)):
-
-Neo4j is a world leading Java based graph database (NoSQL).  But did you know that it's available in Chocolatey, uses PowerShell for installation, Pester for unit testing and can use the .Net driver for using the new binary protocol? No didn't think you did...  In this quick demo we'll go through how is used in Neo4j from source code, installation and actually using it.
 
 ### PowerLine: Custom prompts made easy
 
@@ -114,31 +88,13 @@ Proposed by [Josh Rickard](https://twitter.com/MS_dministrator) ([GitHub](https:
 
 I will be talking a new PS Module that wraps the advapi32.dll into a PowerShell Module which can mount, dismount, create, delete, update (plus more) both the local and remote registry hives without using PS Drives or the old reg load/unload commands. This project is still a WIP.
 
-### Design then Code
-
-Proposed by [Josh Rickard](https://twitter.com/MS_dministrator) ([GitHub](https://github.com/MSAdministrator), [Blog](MSAdministrator.com)):
-
-I will be talking about how we should create amazing tools and the best approach (IMO) to doing just that! Before we dive into a Module, we should first design what the functions should look like, how they should act, can you pipe values, etc. all of this functionality can be designed before we write a single line of code.
-
-### PoshOutlook
-
-Proposed by [Josh Rickard](https://twitter.com/MS_dministrator) ([GitHub](https://github.com/MSAdministrator), [Blog](MSAdministrator.com)):
-
-I will be talking about a project called PoshOutlook which is the beginning of wrapping Outlook's COM object into both a PowerShell Module as well as a PS5 Class(es).  It's still a work In progress, but I can share what it does and how it will work in a class implementation.
-
-### PPRT: PowerShell Phishing Response Toolkit
-
-Proposed by [Josh Rickard](https://twitter.com/MS_dministrator) ([GitHub](https://github.com/MSAdministrator), [Blog](MSAdministrator.com)):
-
-I will be talking about a PowerShell Module I've created called PPRT (PowerShell Phishing Response Toolkit).  PPRT is designed to identify phishing website owners using RDAP (New Whois) and automate takedown notifications of received phishing attempts.
-
 ### Importance of Code Coverage
 
 Proposed by [Kelcey Vehanen](https://twitter.com/pixelrebirth) ([GitHub](https://github.com/pixelrebirth)):
 
 I will be talking about why 100% code coverage is critical.
 
-### Deploy AWS Infrastructure with CloudFormation and PowerShell
+### [Deploy AWS Infrastructure with CloudFormation and PowerShell](https://github.com/LawrenceHwang/PowerShellSummit2017)
 
 Proposed by [Lawrence Hwang](https://twitter.com/CPoweredLion) ([GitHub](https://github.com/LawrenceHwang), [Blog](https://poshsea.blogspot.ca)):
 
@@ -150,21 +106,9 @@ Proposed by [Michael T Lombardi](https://twitter.com/barbariankb) ([GitHub](http
 
 I'll give a brief talk about documenting projects, why we should document more/better, and the minimum docs to include to boost user onboarding.
 
-### GitLab CI: Get Running
-
-Proposed by [Michael T Lombardi](https://twitter.com/barbariankb) ([GitHub](https://github.com/michaeltlombardi), [Blog](https://michaeltlombardi.gitlab.io)):
-
-Talk about using GitLab CI + PowerShell to Build/Deploy Projects
-
-### ScriptAsService: Deploy Looping Scripts as Services
-
-Proposed by [Michael T Lombardi](https://twitter.com/barbariankb) ([GitHub](https://github.com/michaeltlombardi), [Blog](https://michaeltlombardi.gitlab.io)):
-
-I'll discuss the ScriptAsService project and using it to deploy scripts as signed binaries to servers for scheduling.
-
 ### PowerShell Release Pipelines with TFS, vscode, and psake
 
-Proposed by Rob Pleau:
+Proposed by [Rob Pleau](https://twitter.com/rjpleau):
 
 PowerShell Release Pipelines with TFS, vscode, and psake
 
@@ -182,7 +126,7 @@ A few GUI tools written that utilize PowerShell to make ad-hoc and provisioning 
 
 ### Structuring a PowerShell Module
 
-Proposed by [Trevor Sullivan](https://twitter.com/pcgeek86):
+Proposed by [Trevor Sullivan](https://twitter.com/pcgeek86) ([GitHub](https://github.com/pcgeek86), [Blog](https://trevorsullivan.net/)):
 
 Structuring a PowerShell Module: Intellisense, aliases, functions, Pester tests, etc.
 
@@ -191,3 +135,18 @@ Structuring a PowerShell Module: Intellisense, aliases, functions, Pester tests,
 Proposed by [Wesley Kirkland](https://twitter.com/unleashthecloud) ([GitHub](https://github.com/wesleykirkland)):
 
 I'll be talking about using code to write other code with specific logic conditions to make your programs truely dynamic
+
+### Visualizing Continuous Integration
+
+Proposed by [Josh Castillo](https://twitter.com/doesitscript) ([GitHub](https://github.com/doesitscript), [Blog](http://www.doesitscript.org/))
+
+Visualizing Continuous Integration
+
+## Notes
+
+A huge thanks to:
+
+* Don, Richard, Chris et all for giving this the green light, the opportunity to help, and tips along the way
+* Michael, for doing most (all?) of my job!
+* Everyone who presented!  I know it can be tough getting up there, but really enjoyed all of these, and appreciate the time you took putting them together and sharing with us
+* The audience, for supporting everyone who went up there - hope to see some of you out there next year : D
